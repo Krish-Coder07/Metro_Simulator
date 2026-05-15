@@ -1,0 +1,170 @@
+line,station,nextstation,traveltime(min),interchange (either yes or no and if yes then with which line),distance(km)
+
+# in this interchanges on blue and magenta line are included as well as if any other line of metro coming also other than blue or magenta they are mentioned after yes-linename
+
+#time duration and interchanges information is taken from official dmrc site ([https://delhimetrorail.com/](https://delhimetrorail.com/))
+#after interchange details , distance is also mentioned which is rounded off data 
+-blue line (route: dwarka sector 21 to noida electronic city)
+
+blue,dwarka sector 21,dwarka sector 8,3,no,2.5
+blue,dwarka sector 8,dwarka sector 9,2,no,1.1
+blue,dwarka sector 9,dwarka sector 10,2,no,1
+blue,dwarka sector 10,dwarka sector 11,2,no,0.9
+blue,dwarka sector 11,dwarka sector 12,2,no,0.9
+blue,dwarka sector 12,dwarka sector 13,2,no,0.9
+blue,dwarka sector 13,dwarka sector 14,2,no,0.7
+blue,dwarka sector 14,dwarka,2,yes-grey(5 minutes interchange),0.8
+blue,dwarka,dwarka mor,2,no,1.2
+blue,dwarka mor,nawada,2,no,1.6
+blue,nawada,uttam nagar west,2,no,1.3
+blue,uttam nagar west,uttam nagar east,2,no,1.1
+blue,uttam nagar east,janakpuri west,2,yes-magenta(5 minutes interchange),1.3
+blue,janakpuri west,janakpuri east,2,no,0.7
+blue,janakpuri east,tilak nagar,2,no,1.2
+blue,tilak nagar,subhash nagar,2,no,1.2
+blue,subhash nagar,tagore garden,2,no,1.2
+blue,tagore garden,rajouri garden,2,no,1
+blue,rajouri garden,ramesh nagar,2,no,1.2
+blue,ramesh nagar,moti nagar,2,no,1.2
+blue,moti nagar,kirti nagar,2,no,1.1
+blue,kirti nagar,shadipur,2,no,1
+blue,shadipur,patel nagar,2,no,1.4
+blue,patel nagar,rajendra place,2,no,1
+blue,rajendra place,karol bagh,2,no,1
+blue,karol bagh,jhandewalan,2,no,1.1
+blue,jhandewalan,ramakrishna ashram marg,2,no,1.2
+blue,ramakrishna ashram marg,rajiv chowk,2,no,1
+blue,rajiv chowk,barakhamba road,2,no,0.7
+blue,barakhamba road,mandi house,2,yes-violet(5 minutes interchange),1.2
+blue,mandi house,supreme court,2,no,1
+blue,supreme court,indraprastha,2,no,0.9
+blue,indraprastha,yamuna bank,3,no,1
+blue,yamuna bank,akshardham,3,no,1.1
+blue,akshardham,mayur vihar phase 1,3,no,1.2
+blue,mayur vihar phase 1,mayur vihar extension,2,no,1.3
+blue,mayur vihar extension,new ashok nagar,2,no,2.3
+blue,new ashok nagar,noida sector - 15,2,no,1.6
+blue,noida sector - 15,noida sector - 16,2,no,1.2
+blue,noida sector - 16,noida sector - 18,2,no,1.5
+blue,noida sector - 18,botanical garden,2,yes-magenta(5 minutes interchange),1.8
+blue,botanical garden,golf course,3,no,1.6
+blue,golf course,noida city centre,2,no,2
+blue,noida city centre,sector - 34 noida,2,no,1.8
+blue,sector - 34 noida,sector - 52 noida,2,no,2.7
+blue,sector - 52 noida,sector - 61 noida,2,no,1.5
+blue,sector - 61 noida,sector - 59 noida,2,no,1.3
+blue,sector - 59 noida,sector - 62 noida,2,no,1.1
+blue,sector - 62 noida,noida electronic city,2,no,1.2
+blue,noida electronic city,end,0,no,0      #in this time duration is 0 as there is no further metro station after noida electronic city on blue line if you are coming from yamuna bank side.
+
+-blue line branch (yamuna bank to vaishali)
+
+blue,yamuna bank,laxmi nagar,3,no,1.2
+blue,laxmi nagar,nirman vihar,2,no,1.6
+blue,nirman vihar,preet vihar,2,no,1.7
+blue,preet vihar,karkarduma,2,no,1.6
+blue,karkarduma,anand vihar,2,no,1.2
+blue,anand vihar,kaushambi,3,no,1.1
+blue,kaushambi,vaishali,2,no,1.3
+blue,vaishali,end,0,no,0
+
+-magenta line (janakpuri west to botanical garden)
+
+magenta,janakpuri west,dabri mor-janakpuri south,5,yes-blue(5 minutes interchange),1.4
+magenta,dabri mor-janakpuri south,dashrath puri,5,no,1.2
+magenta,dashrath puri,palam,2,no,1.2
+magenta,palam,sadar bazar cantonment,4,no,1.7
+magenta,sadar bazar cantonment,terminal 1 igi airport,3,no,2.7
+magenta,terminal 1 igi airport,shankar vihar,3,no,1.9
+magenta,shankar vihar,vasant vihar,3,no,1.3
+magenta,vasant vihar,munirka,3,no,1.3
+magenta,munirka,r k puram,2,no,1.2
+magenta,r k puram,iit,2,no,1.2
+magenta,iit,hauz khas,2,no,1.5
+magenta,hauz khas,panchsheel park,3,no,1.1
+magenta,panchsheel park,chirag delhi,2,no,1.2
+magenta,chirag delhi,greater kailash,2,no,1.1
+magenta,greater kailash,nehru enclave,2,no,1.3
+magenta,nehru enclave,kalkaji mandir,2,yes-violet(5 minutes interchange),1.1
+magenta,kalkaji mandir,okhla nsic,2,no,1.1
+magenta,okhla nsic,sukhdev vihar,2,no,1.2
+magenta,sukhdev vihar,jamia millia islamia,2,no,1.3
+magenta,jamia millia islamia,okhla vihar,2,no,1
+magenta,okhla vihar,jasola vihar shaheen bagh,5,no,1.8
+magenta,jasola vihar shaheen bagh,kalindi kunj,5,no,1.9
+magenta,kalindi kunj,okhla bird sanctuary,2,no,1.7
+magenta,okhla bird sanctuary,botanical garden,3,yes-blue(5 minutes interchange),1.4
+magenta,botanical garden,end,0,no,0
+
+-red line(shaheed sthal to rithala)
+red,shaheed sthal (new bus adda),hindon,2,no,1.4
+red,hindon,arthala,2,no,1.8
+red,arthala,mohan nagar,2,no,1.1
+red,mohan nagar,shyam park,2,no,1.2
+red,shyam park,major mohit sharma rajendra nagar,2,no,1.5
+red,major mohit sharma rajendra nagar,raj bagh,2,no,1.1
+red,raj bagh,shaheed nagar,2,no,1.3
+red,shaheed nagar,dilshad garden,2,no,1.3
+red,dilshad garden,jhilmil,2,no,0.7
+red,jhilmil,mansarovar park,2,no,1.5
+red,mansarovar park,shahdara,2,no,1.4
+red,shahdara,welcome,2,no,1.2
+red,welcome,seelampur,2,no,1.2
+red,seelampur,shastri park,2,no,1.7
+red,shastri park,kashmere gate,3,yes-violet(5 minutes interchange),2.2
+red,kashmere gate,tis hazari,2,no,1.1
+red,tis hazari,pulbangash,2,no,1.4
+red,pulbangash,pratap nagar,2,no,2
+red,pratap nagar,shastri nagar,2,no,1.5
+red,shastri nagar,inderlok,2,no,1.2
+red,inderlok,kanhaiya nagar,2,no,1.8
+red,kanhaiya nagar,keshav puram,2,no,0.8
+red,keshav puram,netaji subhash place,2,no,1.2
+red,netaji subhash place,kohat enclave,2,no,2.2
+red,kohat enclave,pitampura,2,no,1
+red,pitampura,rohini east,2,no,0.8
+red,rohini east,rohini west,2,no,1.2
+red,rohini west,rithala,2,no,0.8
+red,rithala,end,0,no,0
+
+-grey line(dwarka to dhansa bus stand)
+grey,dwarka,nangli,2,yes-blue(5 minutes interchange),1.2
+grey,nangli,najafgarh,3,no,2.4
+grey,najafgarh,dhansa bus stand,2,no,1.1
+grey,dhansa bus stand,end,0,no,0
+
+-violet line(kashmere gate to raja nahar singh (ballabgarh) )
+violet,kashmere gate,lal qila,2,yes-red(5 minutes interchange),1.4
+violet,lal qila,jama masjid,2,no,0.8
+violet,jama masjid,delhi gate,2,no,1.2
+violet,delhi gate,ito,2,no,1.5
+violet,ito,mandi house,2,yes-blue(5 minutes interchange),0.6
+violet,mandi house,janpath,2,no,1.6
+violet,janpath,central secretariat,2,no,1.6
+violet,central secretariat,khan market,3,no,2.1
+violet,khan market,jawaharlal nehru stadium,2,no,1.4
+violet,jawaharlal nehru stadium,jangpura,2,no,1.2
+violet,jangpura,lajpat nagar,2,no,1
+violet,lajpat nagar,moolchand,2,no,0.7
+violet,moolchand,kailash colony,2,no,1.2
+violet,kailash colony,nehru place,2,no,1.2
+violet,nehru place,kalkaji mandir,2,yes-magenta(5 minutes interchange),0.7
+violet,kalkaji mandir,govindpuri,2,no,0.8
+violet,govindpuri,harkesh nagar okhla,2,no,1.1
+violet,harkesh nagar okhla,jasola apollo,2,no,1.2
+violet,jasola apollo,sarita vihar,2,no,1.1
+violet,sarita vihar,mohan estate,2,no,1.2
+violet,mohan estate,tughlakabad station,3,no,2
+violet,tughlakabad station,badarpur border,2,no,1
+violet,badarpur border,sarai,2,no,1.7
+violet,sarai,nhpc chowk,2,no,1.7
+violet,nhpc chowk,mewla maharajpur,2,no,1.6
+violet,mewla maharajpur,sector 28,2,no,1.6
+violet,sector 28,badkal mor,2,no,2
+violet,badkal mor,old faridabad,2,no,1.2
+violet,old faridabad,neelam chowk ajronda,2,no,1.3
+violet,neelam chowk ajronda,bata chowk,2,no,2
+violet,bata chowk,escorts mujesar,3,no,2.4
+violet,escorts mujesar,sant surdas (sihi),2,no,1.7
+violet,sant surdas (sihi),raja nahar singh (ballabgarh),3,no,2.2
+violet,raja nahar singh (ballabgarh),end,0,no,0
